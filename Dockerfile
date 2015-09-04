@@ -26,6 +26,18 @@ RUN apt-get install -y build-essential && \
     npm install -g --unsafe-perm  node-red && \
     npm install node-red-contrib-googlechart && \
     npm install node-red-node-web-nodes && \
+    npm install node-red-node-pushbullet && \
+    npm install node-red-contrib-teslams && \
+    npm install --unsafe-perm node-red-contrib-sunevents && \
+    npm install --unsafe-perm node-red-contrib-yamaha && \
+    npm install node-red-node-ping && \
+    npm install insteon-hub && \
+    npm install node-red-node-scanBLE && \
+    npm install noble && \
+    npm install node-red-contrib-noble && \
+    npm install node-red-node-file-upload && \
+    npm install node-red-contrib-sparkcore && \
+    npm install node-red-node-xmpp && \
     apt-get autoremove -y build-essential
 
 # install nodered nodes
